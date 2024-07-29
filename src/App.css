@@ -1,0 +1,35 @@
+
+
+.main-h {
+  font-weight: 700;
+}
+
+.dessert h1{
+  font-weight: 600;
+}
+
+.dessertB {
+  font-weight:400;
+}
+
+.dessertB:hover{
+  color: #BA3A16;
+  border-color: #BA3A16;
+}
+
+.ycart .ycart__title {
+  color: #BA3A16;
+  font-weight: 700;
+  font-size: 1.7em;
+}
+
+.iButton:hover {
+  background-color: #fff;
+  border-color: #fff;
+  cursor: pointer;
+  
+}
+
+.iButton:hover .svg-icon > path {
+  fill: #BA3A16;
+}
