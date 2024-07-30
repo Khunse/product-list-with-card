@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Source Code](https://github.com/Khunse/product-list-with-card)
+- Live Site URL: [Product-List-With-Card](https://khunse.github.io/product-list-with-card/)
 
 ## My process
 
