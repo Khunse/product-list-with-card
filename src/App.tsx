@@ -22,7 +22,7 @@ function App() {
     <>
       <div className='lg:m-auto'>
         <CartProvider>
-          <div className='my-16 lg:flex lg:gap-5 lg:justify-center'>
+          <div className='my-16 lg:flex lg:gap-5 lg:justify-center px-5 lg:px-0'>
           <DessertMain /> 
           <Cart orderHandle={handleModel} />
           </div>

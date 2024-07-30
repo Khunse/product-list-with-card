@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import { DessertContextTyp, OrderCart } from "./types";
+import { DessertContextTyp } from "./types";
 
 
 export const DessertContext = createContext<DessertContextTyp | null>(null)

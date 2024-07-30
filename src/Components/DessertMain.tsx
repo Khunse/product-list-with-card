@@ -1,4 +1,3 @@
-import {  useState } from "react"
 import { Dessert, DessertProp, Order } from "../Common/types";
 import {  useCartContext } from "../Common/DessertContext";
 import data from '../External/data.json';
@@ -7,7 +6,7 @@ export default function DessertMain()
 {
    
     //  const [ orderItems,setOrderItems ] = useState<Order[] | null>(null);
-     const { cartItem, setCartItem} = useCartContext();
+     const { setCartItem} = useCartContext();
 
     return (
         <section className="text-xs lg:basis-6/12">
@@ -33,7 +32,7 @@ export default function DessertMain()
 }
 
 
-function DessertItem({dessert,dessertHandler} : DessertProp)
+function DessertItem({dessert} : DessertProp)
 {
     const { cartItem } = useCartContext();
 

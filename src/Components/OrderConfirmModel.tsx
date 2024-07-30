@@ -1,16 +1,15 @@
 import { ReactNode } from "react";
 import { useCartContext } from "../Common/DessertContext";
-import Cart from "./Cart";
 
 
-function Model({children,show,onClose} : {show: boolean,onClose: ()=>void,children:ReactNode})
+function Model({children,show} : {show: boolean,onClose: ()=>void,children:ReactNode})
 {
 
     if(!show) return;
 
     return (
         <>
-         <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-end lg:items-center lg:justify-center">
+         <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-end lg:items-center lg:justify-center overflow-scroll">
       <div className="bg-white rounded-lg p-6 shadow-lg relative flex-grow flex flex-col gap-4 lg:flex-grow-0 lg:basis-5/12">
         {/* <button
           onClick={onClose}
@@ -60,7 +59,7 @@ export default function OrderConfirmModel({show,onClose,newOrder} : {show: boole
 
 function OrderList()
 {
-    const {cartItem,setCartItem} = useCartContext();
+    const {cartItem} = useCartContext();
 
 if(!cartItem) return;
 
